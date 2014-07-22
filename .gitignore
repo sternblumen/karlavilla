@@ -1,2 +1,6 @@
 node_modules/
 .sass-cache/
+mockups-ui-ux/site/.sass-cache/
+mockups-ui-ux/site/node_modules/
+mockups-ui-ux/site/bootstrap/
+mockups-ui-ux/site/js/

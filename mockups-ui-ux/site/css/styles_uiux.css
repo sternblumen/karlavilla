@@ -1,0 +1,153 @@
+/*!
+
+LINIO MOCKUPS SITE CSS
+JULY 2014
+
+*/
+/* @group 1. CHECKOUT TAGs
+************************************************************************* */
+@font-face {
+  font-family: 'iconset';
+  src: url("../fonts/Linioiconset-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Linioiconset-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Linioiconset-Regular.woff") format("woff"), url("../fonts/Linioiconset-Regular.ttf") format("truetype"), url("../fonts/Linioiconset-Regular.svg#80371cd2e18e25345eb56b62a29eef99") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: 'iconset';
+  src: url("../fonts/Linioiconset-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Linioiconset-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Linioiconset-Regular.woff") format("woff"), url("../fonts/Linioiconset-Regular.ttf") format("truetype"), url("../fonts/Linioiconset-Regular.svg#80371cd2e18e25345eb56b62a29eef99") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal; }
+/* PT Sans */
+@font-face {
+  font-family: 'pt-sans';
+  src: url("../fonts/pt-sans/pt_sans-webfont.eot");
+  src: url("../fonts/pt-sans/pt_sans-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-sans/pt_sans-webfont.woff") format("woff"), url("../fonts/pt-sans/pt_sans-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pt-sans';
+  src: url("../fonts/pt-sans/pt_sans_italic-webfont.eot");
+  src: url("../fonts/pt-sans/pt_sans_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-sans/pt_sans_italic-webfont.woff") format("woff"), url("../fonts/pt-sans/pt_sans_italic-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'pt-sans';
+  src: url("../fonts/pt-sans/pt_sans_bold-webfont.eot");
+  src: url("../fonts/pt-sans/pt_sans_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans_bold-webfont.woff") format("woff"), url("../fonts/pt_sans_bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'pt-sans';
+  src: url("../fonts/pt_sans_bold_italic-webfont.eot");
+  src: url("../fonts/pt_sans_bold_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans_bold_italic-webfont.woff") format("woff"), url("../fonts/pt_sans_bold_italic-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'function-pro';
+  src: url("../fonts/functionpro-light-webfont.eot");
+  src: url("../fonts/functionpro-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/functionpro-light-webfont.woff") format("woff"), url("../fonts/functionpro-light-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100; }
+@font-face {
+  font-family: 'function-pro';
+  src: url("../fonts/functionpro-medium-webfont.eot");
+  src: url("../fonts/functionpro-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/functionpro-medium-webfont.woff") format("woff"), url("../fonts/functionpro-medium-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+body {
+  font-family: function-pro;
+  margin: 0px; }
+
+h1, h2, h3, h4, h5 {
+  color: #62982d;
+  font-family: function-pro;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-top: 10px; }
+
+.topHeader {
+  background: #f3f3f3;
+  border-top: 5px solid #ffd500;
+  height: 70px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+
+.logo {
+  font: function-pro;
+  font-weight: 100;
+  font-size: 20px;
+  left: 10px;
+  margin: 0;
+  position: absolute;
+  top: 5px;
+  text-transform: uppercase; }
+  .logo a {
+    text-decoration: none;
+    color: #666666; }
+    .logo a span {
+      color: #999; }
+
+.TitleofSection {
+  padding: 30px 30px 10px 10px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 100; }
+
+.explication p {
+  font-family: function-pro;
+  font-weight: 100;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 20px; }
+.explication ul li {
+  font-family: function-pro;
+  font-weight: 100;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  list-style-type: disc; }
+
+.listOfMockups {
+  border-top: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
+  margin-bottom: 50px; }
+  .listOfMockups ul {
+    list-style-type: none; }
+  .listOfMockups li {
+    padding: 10px 0px; }
+  .listOfMockups a {
+    font-family: function-pro;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #df5105;
+    font-size: 20px;
+    text-decoration: none; }
+    .listOfMockups a:before {
+      content: 'x';
+      display: inline;
+      height: 20px;
+      font-family: iconset;
+      font-size: 20px;
+      text-transform: none;
+      right: -5px;
+      top: -1px;
+      width: 20px; }
+    .listOfMockups a:hover {
+      color: #f98b30; }
+
+@media (min-width: 600px) {
+  .modal-dialog {
+    width: 1000px;
+    margin: 30px auto; } }
+.btn {
+  text-transform: uppercase; }
