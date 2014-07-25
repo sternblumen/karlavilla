@@ -5,32 +5,14 @@
 		<title>UI/UX LINIO</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-		<!-- Optional theme -->
-		<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"> -->
-
-		<!-- Loading Bootstrap -->
-		<!-- <link href="../site/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
-
-		<!-- Loading Flat UI -->
-		<!-- <link href="../site/css/flat-ui.css" rel="stylesheet"> -->
 
 		<!-- Loading Styles UAEM -->
 		<link href="../site/css/styles_uiux.css" rel="stylesheet">
 
-
-		<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
-
-
 		<link rel="shortcut icon" href="images/favicon.ico">
 
-		<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-		<!--[if lt IE 9]>
-			<script src="../site/js/html5shiv.js"></script>
-		<![endif]-->
 	</head>
 
 
@@ -43,7 +25,7 @@
 
 			
 				<div class="TitleofSection">
-					Resultados de Búsqueda  
+					Search Results / Suggest results
 				</div>
 
 				<!-- Inicio Lista de Mockups -->
@@ -51,35 +33,78 @@
 				
 				<div class="clearfix"></div>
 
-				<!-- Button trigger modal -->
-				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#01">
-				  Resultados Walmart
-				</button>
+				<!-- Explicación -->
+				<div class="TextForRead">
+					<div class="Titles">Issues</div>
+						<ul>
+							<li>There are not related results or suggestions for queries with <span class="highlight">"No Results"</span></li>
+							<li>In some cases the way that the terms of search were put by the user take them to a "No results" page, but if they search by brand or with less terms, then they can find the exact product that they want.
+							</li>
+							
+							<li>In case of "No results" we offer tips to redefine the search, but we can improve this page:
+								<ul>
+									<li>"search design should assume that most users won't be willing or able to refine their queries. Given this, the emphasis should be on increasing users' success on the first attempt."<span class="source"><a href="http://www.nngroup.com/articles/search-visible-and-simple/">Source</a></span></li>
+									
+									<li>"users typically make very quick judgments about a website's value based on the quality of one or two sets of search results. If the list looks like junk, they may abandon the site completely. At a minimum, they'll forgo the site's search in favor of external search engines like Google."<span class="source"><a href="http://www.nngroup.com/articles/search-visible-and-simple/">Source</a></span></li>
+								</ul>
+							</li>
+						</ul>
 
-				<!-- Button trigger modal -->
-				<button class="btn btn-danger btn-lg" data-toggle="modal" data-target="#02">
-				  Resultados Liverpool
-				</button>
+						<div class="Titles">Case 1</div>
+						<ul>
+							<li>The user is compare a product in our store that saw in Walmart.com.mx</li>
 
-				<!-- Button trigger modal -->
-				<button class="btn btn-warning btn-lg" data-toggle="modal" data-target="#03">
-				  Resultados Linio
-				</button>
+							<p>
+								<!-- Button trigger modal -->
+								<button class="btn btn-primary btn-md" data-toggle="modal" data-target="#01">
+								  Walmart Results for "Tablet Dell venue 8 negra 16 GB"
+								</button>
+							</p>
+							<p>
+								<!-- Button trigger modal -->
+								<button class="btn btn-warning btn-md" data-toggle="modal" data-target="#02">
+								  Linio Results for "Tablet Dell venue 8 negra 16 GB"
+								</button>
+							</p>
+							<li>If the user change a little the search</li>
+								<!-- Button trigger modal -->
+							<p>
+								<button class="btn btn-warning btn-md" data-toggle="modal" data-target="#03">
+							  		Linio Results for "Tablet Dell Venue 8"
+								</button>
+							</p>
+							<p>
+								<!-- Button trigger modal -->
+								<button class="btn btn-warning btn-md" data-toggle="modal" data-target="#04">
+							  		Linio Results for "Tablet Dell"
+								</button>								
+							</p>
+							<br> 
+						</ul>
+
+						<div class="solution">
+							<ul>
+								<li>With a bad combination of terms in the search box, the user can see the "no results" page even when exist in the site similar products or the exact product </li>
+							</ul>
+						</div>	
+
+				</div>
+
 
 				<!-- Modal 01-->
 				<div class="modal fade" id="01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				  <div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">close</span></button>
 							<h4 class="modal-title" id="myModalLabel">Resultados Walmart</h4>
 					  	</div>
 
 						<div class="modal-body">
-							<img class="img-responsive" src="screenshots_busqueda/laptop_dell.png" alt="">
+							<img class="img-responsive" src="screenshots_busqueda/walmart-Tablet-Dell-Venue-8-Negra-16-GB.png" alt="">
 					 	</div>
 					  <div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
 					  </div>
 					</div>
 				  </div>
@@ -91,15 +116,15 @@
 				  <div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
-							<h4 class="modal-title" id="myModalLabel">Resultados Liverpool</h4>
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">close</span></button>
+							<h4 class="modal-title" id="myModalLabel">Resultados Linio</h4>
 					  	</div>
 
 						<div class="modal-body">
-							<img class="img-responsive" src="screenshots_busqueda/laptop_dell.png" alt="">
+							<img class="img-responsive" src="screenshots_busqueda/linio_Tablet-Dell-Venue-8-Negra-16-GB.png" alt="">
 					 	</div>
 					  <div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
 					  </div>
 					</div>
 				  </div>
@@ -111,39 +136,61 @@
 				  <div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">close</span></button>
 							<h4 class="modal-title" id="myModalLabel">Resultados Linio</h4>
 					  	</div>
 
 						<div class="modal-body">
-							<img class="img-responsive" src="screenshots_busqueda/laptop_dell.png" alt="">
+							<img class="img-responsive" src="screenshots_busqueda/linio-tablet-dell-venue-search.png" alt="">
 					 	</div>
 					  <div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
 					  </div>
 					</div>
 				  </div>
 				</div>
 				<!-- Modal 03 -->
 
+				<!-- Modal 04-->
+				<div class="modal fade" id="04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">close</span></button>
+							<h4 class="modal-title" id="myModalLabel">Resultados Linio</h4>
+					  	</div>
 
-					<!-- Explicación -->
-					<!-- <div class="explication">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-							<ul>
-								<li>Point 1</li>
-							</ul>
-						</p>	
-					</div> -->
-					<!-- /Explicación -->
-					
-					<ul>
-						<li><a href="Linio-faq-test-m.html" target="_blank">Preguntas frecuentes 1</a></li>
-						<li><a href="Linio-faq-test-s.html" target="_blank">Preguntas frecuentes 2</a></li>
-						
-					</ul>
+						<div class="modal-body">
+							<img class="img-responsive" src="screenshots_busqueda/linio-Tablet-Dell.png" alt="">
+					 	</div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<!-- Modal 04 -->				
+
 				</div>
 				<!-- /Fin Lista de Mockups -->	
+
+
+				<!-- Resources -->
+				<div class="TitleofSection">
+					Resources
+				</div>
+
+					<div class="listOfMockups">
+
+						<ul class="source">
+							<li><a href="http://www.nngroup.com/articles/search-no-results-serp/">http://www.nngroup.com/articles/search-no-results-serp/</a></li>
+							<li><a href="http://www.nngroup.com/articles/mental-models-for-search/">http://www.nngroup.com/articles/mental-models-for-search/</a></li>
+							<li><a href="http://www.nngroup.com/articles/search-visible-and-simple/">http://www.nngroup.com/articles/search-visible-and-simple/ </a></li>
+							<li><a href="http://blog.kissmetrics.com/ecommerce-website-search/">http://blog.kissmetrics.com/ecommerce-website-search</a></li>
+							<li><a href="https://econsultancy.com/blog/64704-25-effective-design-patterns-for-ecommerce-site-search-results#i.16cihsd62bdngq">https://econsultancy.com/blog/64704-25-effective-design-patterns-for-ecommerce-site-search-results</a></li>
+						</ul>
+
+					</div>				
 
 			</div> 
 			<!-- /container -->
@@ -157,18 +204,5 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 
-		<!--<script src="../site/js/jquery-1.8.3.min.js"></script>
-		<script src="../site/js/jquery-ui-1.10.3.custom.min.js"></script>
-		<script src="../site/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="../site/js/bootstrap.min.js"></script>
-		<script src="../site/js/bootstrap-select.js"></script>
-		<script src="../site/js/bootstrap-switch.js"></script>
-		<script src="../site/js/flatui-checkbox.js"></script>
-		<script src="../site/js/flatui-radio.js"></script>
-		<script src="../site/js/jquery.tagsinput.js"></script>
-		<script src="../site/js/jquery.placeholder.js"></script>
-		<script src="../site/js/jquery.stacktable.js"></script>
-		<script src="http://vjs.zencdn.net/c/video.js"></script>
-		<script src="../site/js/application.js"></script>-->
 	</body>
 </html>
