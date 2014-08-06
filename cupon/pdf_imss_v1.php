@@ -54,7 +54,7 @@
 				<table cellpadding="0" cellspacing="0" width="600px" align="center" style="table-layout:fixed;border-collapse:collapse; border-spacing:0px;">
 					<tbody>
 						<tr>
-							<td align="top" width="180px">
+							<td width="180px" style="vertical-align: top; padding-top: 20px;">
 								<img style="border: solid 1px #ededed; display:block;line-height:0;" alt="Beneficio" src="img-beneficio.jpg">
 							</td>
 							<td>
@@ -69,8 +69,8 @@
 									<!-- VALIDEZ -->
 									<tr>
 										<td style="padding-top:10px; padding-bottom:20px; font-weight:700; color:#75AF1D; font-size:13px;">
-											Válido del:20/08/2014 <br />
-											Hasta:30/08/2014
+											Válido del: 20/08/2014 <br />
+											Hasta: 30/08/2014
 										</td>
 									</tr>
 
@@ -89,17 +89,39 @@
 
 						<tr>
 							<td valign="top" style="">
-								<table cellpadding="0" cellspacing="0" width="600px" align="center" style="margin-top:10px; margin-bottom:10px; background:#ccc;">
-									<tr style="padding-top:20px;">
+								<table cellpadding="0" cellspacing="0" width="600px" align="center" style="border: solid 1px #dddddd; margin-top:30px; margin-bottom:10px; background:#efefef;">
+									<tr>
+										<td height="20px"></td>
+									</tr>
+									<tr style="vertical-align:top;">
+										<td width="20px"></td>
+
 										<!--TERMINOS Y CONDICIONES-->
-										<td width="440px">
-											1
+										<td width="440px" vertical-align="top" style="padding-right:10px; line-height:15px;">
+												<p style="color:#808184;font-size:9px; font-weight:bold;">Token:$2y$10$ZPNEuOA1yISBfBn2fA/XIexu817IBE5kb6juKlfILkDbpOBC2hhou</p>
+												<p style="color:#808184;font-size:9px; font-weight:bold;">Beneficio ID:1002</p><br/>
+
+
+											<p style="color:#808184;font-size:9px;">Términos y condiciones:
+
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											</p>
 										</td>
+
 										<!--QR CODE-->
-										<td width="160px">
+										<td width="150px">
 											<!-- https://developers.google.com/chart/infographics/docs/qr_codes?csw=1 -->
 											<img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=http://www.reddit.com/?count=25&choe=UTF-8" />
 										</td>
+
+										<td width="20px"></td>
+									</tr>
+									<tr>
+										<td height="20px"></td>
 									</tr>
 								</table>
 							</td>
@@ -117,8 +139,7 @@
 					<tr><td height="10px"></td></tr>
 					<tr>
 						<td>
-							<p>Copyright &copy; Project 2012. All rights reserved.</p>
-							<p>Beneficio generado el día: <?php echo date('d-m-Y'); ?></p>
+							<p style="color:#808184;font-size:9px;">Copyright &copy; Beneficios IMSS 2014. Derechos reservados. Beneficio generado el día: <?php echo date('d-m-Y'); ?></p>
 						</td>
 					</tr>
 					<tr><td height="20px"></td></tr>
