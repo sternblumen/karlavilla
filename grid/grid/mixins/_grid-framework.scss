@@ -15,6 +15,7 @@
     // Inner gutter via padding
     padding-left:  ($grid-gutter-width / 2);
     padding-right: ($grid-gutter-width / 2);
+    background-color: beige;
   }
 }
 
@@ -33,7 +34,8 @@
 @mixin calc-grid-column($index, $class, $type) {
   @if ($type == width) and ($index > 0) {
     .col-#{$class}-#{$index} {
-      width: percentage(($index / $grid-columns));
+      // width: percentage(($index / $grid-columns));
+      width: 80px;
     }
   }
   @if ($type == push) and ($index > 0) {
