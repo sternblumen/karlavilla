@@ -1,0 +1,15 @@
+h1, h2, h3, h4, h5 { font-family: 'Lato', sans-serif; font-weight: 100; text-transform: uppercase; }
+
+.navbar-inverse { background-color: #333333; color: #fa674f; }
+.navbar-inverse a { color: #fa674f; }
+
+.navbar-header h3 { margin-top: 15px; color: #fa674f; }
+.navbar-header h3 a { color: #fa674f; }
+
+.navbar-brand { padding: 0px 0px; }
+.navbar-brand h3 { margin-top: 0px; margin-bottom: 0px; font-size: 18px; }
+
+.nav { padding-top: 6px; padding-left: 25px; }
+.nav li { padding-right: 10px; }
+.nav a { color: #919191; }
+.nav a:hover { text-decoration: none; }
