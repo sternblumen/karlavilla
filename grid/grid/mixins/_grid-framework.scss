@@ -15,7 +15,7 @@
     // Inner gutter via padding
     padding-left:  ($grid-gutter-width / 2);
     padding-right: ($grid-gutter-width / 2);
-    background-color: beige;
+    background-color: DarkSalmon;
   }
 }
 
@@ -63,6 +63,22 @@
       margin-left: percentage(($index / $grid-columns));
     }
   }
+  @if ($type == first) {
+    .col-#{$class}-first-#{$index} {
+      // Inner gutter via padding
+      padding-left:  0px;
+      padding-right: 10px;
+      background-color: Pink;
+    }
+  }
+  @if ($type == last) {
+    .col-#{$class}-last-#{$index} {
+      // Inner gutter via padding
+      padding-left:  10px;
+      padding-right: 0px;
+      background-color: SlateBlue;
+    }
+  }
 }
 
 // [converter] This is defined recursively in LESS, but Sass supports real loops
@@ -80,4 +96,6 @@
   @include loop-grid-columns($grid-columns, $class, pull);
   @include loop-grid-columns($grid-columns, $class, push);
   @include loop-grid-columns($grid-columns, $class, offset);
+  @include loop-grid-columns($grid-columns, $class, first);
+  @include loop-grid-columns($grid-columns, $class, last);
 }
