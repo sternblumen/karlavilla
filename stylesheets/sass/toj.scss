@@ -1,0 +1,36 @@
+body{
+    background-color: #7d92ca;
+}
+
+
+	#container {
+    height: 900px;
+    width: 100%;
+    // overflow: hidden;
+    margin: 0px auto;
+}
+
+#box {
+    background: orange;
+    height: 3695px;
+    width: 1079px;
+    margin: auto;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 261s;
+    -webkit-animation-iteration-count: infinite;
+    // -webkit-animation-direction: bottom;
+    -webkit-animation-timing-function: linear;
+}
+
+#box:hover {
+    // -webkit-animation-play-state: paused;
+}
+
+@-webkit-keyframes move {
+    0% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -3695px;
+    }
+}
