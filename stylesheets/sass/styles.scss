@@ -1,5 +1,6 @@
 $link-color:#919191;
 $grey:#333333;
+$black:#1e1d1d;
 $pink: #fa674f;
 $primary-color: $grey;
 $secondary-color: $pink;
@@ -13,6 +14,7 @@ h1,h2,h3,h4,h5{
 .navbar-inverse{
 	background-color: $primary-color;
 	color:$pink;
+	border-color: $primary-color;
 	a{
 		color:$pink;
 	}
@@ -50,4 +52,40 @@ h1,h2,h3,h4,h5{
 			text-decoration: none;
 		}
 	}
+}
+
+.karla{
+
+	margin-top:65px;
+
+	.jumbotron{
+		background-color: $primary-color;
+		color: $secondary-color;
+		padding: 0px;
+	}
+
+	.author{
+		color: $secondary-color;
+		font-style: italic;
+		font-weight: lighter;
+	}
+
+	.selfie{
+    	width: 180px;
+		height: 180px;
+		background: $secondary-color;
+		border-radius: 100px;
+		margin: 10px;
+		padding: 10px;
+
+		.icon-bio{
+			width: 100px;
+			height: 100px;
+			background-image: url("http://localhost/karlavilla/img/icon_bio.png");
+			background-position: center;
+			background-repeat: no-repeat;
+			margin: auto;
+		}
+	}
+
 }
