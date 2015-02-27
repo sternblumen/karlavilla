@@ -1,0 +1,21 @@
+.img-responsive { display: inline; }
+
+body { font-family: 'Montserrat', sans-serif; text-align: center; }
+
+.first { background-color: #f2f2f2; }
+
+.first-text { color: #6699cc; font-size: 60px; }
+
+.second { background-color: #6699cc; }
+
+.second-text { color: #336699; font-size: 60px; }
+
+.img-second { padding: 50px; }
+
+.third { background-color: #336699; }
+
+.third-text { color: #6699cc; }
+
+.fourth { background-color: #d9a273; color: #f2f2f2; }
+
+.fifth { background-color: #d93250; color: #d9a273; }
